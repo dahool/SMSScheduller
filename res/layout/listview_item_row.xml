@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Contact"
+        android:textSize="15dip"
+        android:textColor="@color/row_item_color" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDate"
+        android:layout_alignLeft="@+id/txtTitle"
+        android:layout_below="@+id/txtTitle"
+        android:text="Message"
+        android:paddingLeft="5dip"
+        android:textSize="10dip"
+        android:textColor="@color/row_item_color" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMessage"
+        android:layout_alignParentBottom="true"
+        android:textSize="10dip"
+        android:gravity="right"
+        android:text="Date"
+        android:textColor="@color/row_item_color" />
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtTitle"
+        android:layout_alignTop="@+id/txtTitle"
+        android:src="@drawable/ic_status_p"
+        android:contentDescription="Status" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Scheduler</string>
+    <string name="action_new">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Remove</string>
+    <string name="new_message">Add message</string>
+    
+    <string name="contactId_hint">Recipient</string>
+    <string name="pick_contact_label">Browse</string>
+    
+    <string name="sendDate_hint">Date</string>
+    <string name="sendTime_hint">Time</string>
+    <string name="message_hint">Message</string>
+        
+    <string name="message_sent_ok">Sent</string>
+    <string name="message_sent_fail">Failed</string>
+    
+    <string name="date_in_past">Date is in the past</string>
+    <string name="required">Required</string>
+    <string name="invalid_number">Invalid number</string>
+
+    <string name="type_home">Home</string>
+    <string name="type_work">Work</string>
+    <string name="type_mobile">Mobile</string>
+    <string name="type_other">Other</string>
+    
+</resources>
+

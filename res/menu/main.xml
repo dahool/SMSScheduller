@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item
+        android:id="@+id/action_new"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_new"/>
+<!-- 
+   	<item
+        android:id="@+id/action_test"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_save"
+        android:title="Test"/>
+         -->
+<!-- 
+	<item
+        android:id="@+id/action_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+      -->   
+</menu>

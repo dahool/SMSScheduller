@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Sherlock">
+        <!-- 
+        <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item>
+        <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item>
+         -->
+        <!-- 
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+         -->
+    </style>
+</resources>

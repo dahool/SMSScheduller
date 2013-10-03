@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="row_background_normal">@color/abs__background_holo_light</color>
+    <color name="row_background_selected">#B7DBFF</color>
+    <color name="row_item_color">#000000</color>
+    <color name="row_divider">#B2B2B2</color>
+</resources>
